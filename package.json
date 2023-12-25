@@ -1,8 +1,9 @@
 {
   "name": "react-sook-style",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "author": "22sook00",
   "private": false,
+  "module": "dist/index.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "browser": "./browser/specific/main.js",
@@ -14,6 +15,10 @@
     "typescript",
     "common"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/22sook00/react-sook-style"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",

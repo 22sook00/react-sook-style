@@ -5,9 +5,7 @@
 /.pnp
 .pnp.js
 
-dist/
-package-lock.json
-.npmignore
+dist
 
 # testing
 /coverage
