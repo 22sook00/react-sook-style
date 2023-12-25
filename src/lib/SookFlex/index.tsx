@@ -10,9 +10,15 @@ export interface FlexStyleProps {
   justify?: string;
 }
 
-interface FlexProps extends FlexStyleProps {
+interface FlexProps {
   children: React.ReactNode;
   customStyle?: any;
+  col?: boolean;
+  row?: boolean;
+  gap?: number;
+  wrap?: string;
+  item?: string;
+  justify?: string;
 }
 
 function SookFlex({
