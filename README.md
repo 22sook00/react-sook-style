@@ -1,11 +1,6 @@
-# 💞 React-sook-style 🫧
+# 💞 react-sook-style 🫧
 
-<div style='width:100%; display:flex; justify-content:center;
-'>
-<img src='/public/profile2.png' style='width:200px; height:200px;'
->
-
-</div>
+<img width="200px" height="200px" src='https://github.com/22sook00/react-sook-style/assets/80618616/a92d29b1-58ed-420a-b237-c829216029a4' />
 
 ## Install
 
@@ -45,32 +40,31 @@ import { SookButton, SookCard, SookFlex, SookGrid } from "react-sook-style";
 
 ### Flex
 
-| Prop        | Type                   | Default   | Description        |
-| ----------- | ---------------------- | --------- | ------------------ |
-| children    | string,React.ReactNode |           | 카드 컨텐츠        |
-| customStyle | string                 |           | 사용자 지정 스타일 |
-| col         | boolean                | true      | column 여부        |
-| row         | boolean                |           | row 여부           |
-| gap         | number                 | 12        | 간격               |
-| wrap        | string                 |           | 줄 표시 속성       |
-| item        | string                 | flex-star | 세로정렬           |
-| justify     | string                 | flex-star | 좌우정렬           |
+| Prop        | Type                   | Default    | Description        |
+| ----------- | ---------------------- | ---------- | ------------------ |
+| children    | string,React.ReactNode |            | 카드 컨텐츠        |
+| customStyle | string                 |            | 사용자 지정 스타일 |
+| col         | boolean                | true       | column 여부        |
+| row         | boolean                |            | row 여부           |
+| gap         | number                 | 12         | 간격               |
+| wrap        | string                 |            | 줄 표시 속성       |
+| item        | string                 | flex-start | 세로정렬           |
+| justify     | string                 | flex-start | 좌우정렬           |
 
 ### Grid
 
-| Prop        | Type                   | Default   | Description         |
-| ----------- | ---------------------- | --------- | ------------------- |
-| children    | string,React.ReactNode |           | 카드 컨텐츠         |
-| customStyle | string                 |           | 사용자 지정 스타일  |
-| col         | string                 | 1fr       | 나눌 열 프레임 칼럼 |
-| row         | string                 | 1fr       | 나눌 행 프레임 칼럼 |
-| gap         | number                 | 12        | 간격                |
-| item        | string                 | flex-star | 세로정렬            |
-| justify     | string                 | flex-star | 좌우정렬            |
+| Prop        | Type                   | Default    | Description         |
+| ----------- | ---------------------- | ---------- | ------------------- |
+| children    | string,React.ReactNode |            | 카드 컨텐츠         |
+| customStyle | string                 |            | 사용자 지정 스타일  |
+| col         | string                 | 1fr        | 나눌 열 프레임 칼럼 |
+| row         | string                 | 1fr        | 나눌 행 프레임 칼럼 |
+| gap         | number                 | 12         | 간격                |
+| item        | string                 | flex-start | 세로정렬            |
+| justify     | string                 | flex-start | 좌우정렬            |
 
 ### Stack
 
 - React
 - Typescript
 - Style-componet
-# react-sook-style
